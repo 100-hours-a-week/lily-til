@@ -1,0 +1,21 @@
+## 날짜: 2024-04-23
+
+### 스크럼
+- 학습 목표 1 : git 미니퀘스트 today i learn 만들기
+- 학습 목표 2 : 게시글 목록조회, 게시글 추가 js 완성
+
+### 새로 배운 내용
+#### 주제 1: 📍 appendChild()
+- 부모 자식에 자식 노드를 추가하는 메서드이다
+- 오로지 node객체만 자식 요소로 추가할 수 있다
+code
+  const divElem = document.createElement('div')
+  const pElem = document.createElemment('p')
+  divElem.appendChild(pElem)'
+// 결과 : <div><p></p></div> => 하나의 노드만 추가할 수 있다
+
+### 오늘의 도전 과제와 해결 방법
+- 도전 과제 1: til 만들기, 프로젝트 코드 최신화
+
+### 오늘의 회고
+- js를 하며 css와 html적으로 부족했던 부분을 함께 병행하여 진행해서 시간이 지체되었다.
